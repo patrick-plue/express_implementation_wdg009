@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello</title>
+  </head>
+  <body>
+    <h1>1st Form</h1>
+    <form action="http://localhost:8000/override?_method=PUT" method="POST">
+      <input type="text" name="text" />
+      <button type="submit">Submit</button>
+    </form>
+    <h1>2nd Form</h1>
+    <form action="http://localhost:8000/showPost" method="POST">
+      <input type="text" name="firstname" />
+      <input type="text" name="lastname" />
+      <button type="submit">Submit</button>
+    </form>
+    <h1>3rd Form</h1>
+    <form action="http://localhost:8000/getPost" method="GET">
+      <input type="text" name="firstname" />
+      <input type="text" name="lastname" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
